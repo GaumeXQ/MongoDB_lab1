@@ -1,0 +1,64 @@
+{
+ "q1 default date": {
+  "percent_of_lines": 98.58,
+  "full_scan_ms": 1349.9822799999492,
+  "index_ms": 3470.4746010000918
+ },
+ "q1 selective date": {
+  "percent_of_lines": 0.63,
+  "full_scan_ms": 339.9607290000404,
+  "index_ms": 18.785234000006312
+ },
+ "m1 q3 index with lines.shipdate": {
+  "ms": 17.41686299999401,
+  "docs_examined": 2329
+ },
+ "m1 q3 index without lines.shipdate": {
+  "ms": 86.19049200001427,
+  "docs_examined": 29780
+ },
+ "storage m0": {
+  "data_mb": 270,
+  "disk_mb": 80,
+  "index_mb": 43
+ },
+ "storage m1": {
+  "data_mb": 303,
+  "disk_mb": 86,
+  "index_mb": 23
+ },
+ "storage m2": {
+  "data_mb": 462,
+  "disk_mb": 110,
+  "index_mb": 47
+ },
+ "storage p": {
+  "data_mb": 467,
+  "disk_mb": 112,
+  "index_mb": 45
+ },
+ "writes m0": {
+  "supplier_update_documents": 1,
+  "supplier_update_ms": 2.71,
+  "insert_order_documents": 5,
+  "insert_order_ms": 3.94
+ },
+ "writes m1": {
+  "supplier_update_documents": 80,
+  "supplier_update_ms": 2.59,
+  "insert_order_documents": 1,
+  "insert_order_ms": 0.46
+ },
+ "writes m2": {
+  "supplier_update_documents": 80,
+  "supplier_update_ms": 2.4,
+  "insert_order_documents": 4,
+  "insert_order_ms": 1.37
+ },
+ "writes p": {
+  "supplier_update_documents": 80,
+  "supplier_update_ms": 2.52,
+  "insert_order_documents": 4,
+  "insert_order_ms": 1.17
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "no_index": {
+  "m0_norm/q1": {
+   "ms": 9817.0,
+   "rows": 4,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "m0_norm/q2": {
+   "ms": null,
+   "timeout_ms": 180000
+  },
+  "m0_norm/q3": {
+   "ms": null,
+   "timeout_ms": 180000
+  },
+  "m0_norm/q4": {
+   "ms": null,
+   "timeout_ms": 180000
+  },
+  "m1_parent/q1": {
+   "ms": 18296.2,
+   "rows": 4,
+   "docs": 1500000,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m1_parent/q2": {
+   "ms": 100.0,
+   "rows": 460,
+   "docs": 200000,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m1_parent/q3": {
+   "ms": 935.7,
+   "rows": 11620,
+   "docs": 1500000,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m1_parent/q4": {
+   "ms": 938.3,
+   "rows": 5,
+   "docs": 1500000,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m2_child/q1": {
+   "ms": 11075.8,
+   "rows": 4,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "m2_child/q2": {
+   "ms": 475.6,
+   "rows": 460,
+   "docs": 800000,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "m2_child/q3": {
+   "ms": 2865.0,
+   "rows": 11620,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "m2_child/q4": {
+   "ms": 2633.5,
+   "rows": 5,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "proposed/q1": {
+   "ms": 10695.6,
+   "rows": 4,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "proposed/q2": {
+   "ms": 107.7,
+   "rows": 460,
+   "docs": 200000,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "classic"
+  },
+  "proposed/q3": {
+   "ms": 2883.7,
+   "rows": 11620,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "proposed/q4": {
+   "ms": 2905.3,
+   "rows": 5,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  }
+ }
+}

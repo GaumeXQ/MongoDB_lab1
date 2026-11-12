@@ -1,0 +1,77 @@
+{
+  "lineitem": [
+    {
+      "_id": 11,
+      "orderkey": 1,
+      "partkey": 31038,
+      "suppkey": 1554,
+      "linenumber": 1,
+      "quantity": 17.0,
+      "extendedprice": 16473.51,
+      "discount": 0.04,
+      "tax": 0.02,
+      "returnflag": "N",
+      "linestatus": "O",
+      "shipdate": {
+        "$date": "1996-03-13T00:00:00Z"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "_id": 1,
+      "custkey": 7381,
+      "orderdate": {
+        "$date": "1996-01-02T00:00:00Z"
+      },
+      "shippriority": 0
+    }
+  ],
+  "customer": [
+    {
+      "_id": 7381,
+      "nationkey": 20,
+      "mktsegment": "BUILDING"
+    }
+  ],
+  "part": [
+    {
+      "_id": 31038,
+      "mfgr": "Manufacturer#3",
+      "type": "ECONOMY BURNISHED NICKEL",
+      "size": 31
+    }
+  ],
+  "partsupp": [
+    {
+      "_id": 310380001554,
+      "partkey": 31038,
+      "suppkey": 1554,
+      "supplycost": 984.34
+    }
+  ],
+  "supplier": [
+    {
+      "_id": 1554,
+      "name": "Supplier#000001554",
+      "address": "EbPwlxxpCsxoKvJduekha8s mOxumWg",
+      "nationkey": 12,
+      "phone": "22-764-566-1120",
+      "acctbal": 5246.82,
+      "comment": "s. furiously even requests cajole accounts. final pinto beans use slyly. carefully regular packa"
+    }
+  ],
+  "nation": [
+    {
+      "_id": 12,
+      "name": "JAPAN",
+      "regionkey": 2
+    }
+  ],
+  "region": [
+    {
+      "_id": 2,
+      "name": "ASIA"
+    }
+  ]
+}

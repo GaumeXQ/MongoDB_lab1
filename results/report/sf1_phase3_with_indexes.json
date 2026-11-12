@@ -1,0 +1,164 @@
+{
+ "indexed": {
+  "m0_norm/q1": {
+   "ms": 10154.6,
+   "rows": 4,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "m0_norm/q2": {
+   "ms": 287.5,
+   "rows": 460,
+   "docs": 12706,
+   "keys": 15867,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m0_norm/q3": {
+   "ms": 7733.1,
+   "rows": 11620,
+   "docs": 207798,
+   "keys": 207798,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m0_norm/q4": {
+   "ms": 8331.4,
+   "rows": 5,
+   "docs": 450383,
+   "keys": 450378,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m1_parent/q1": {
+   "ms": 19555.9,
+   "rows": 4,
+   "docs": 1500000,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m1_parent/q2": {
+   "ms": 14.8,
+   "rows": 460,
+   "docs": 747,
+   "keys": 3908,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m1_parent/q3": {
+   "ms": 176.5,
+   "rows": 11620,
+   "docs": 11620,
+   "keys": 31191,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m1_parent/q4": {
+   "ms": 360.0,
+   "rows": 5,
+   "docs": 46008,
+   "keys": 46008,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "classic"
+  },
+  "m2_child/q1": {
+   "ms": 10101.3,
+   "rows": 4,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "m2_child/q2": {
+   "ms": 13.6,
+   "rows": 460,
+   "docs": 1284,
+   "keys": 6926,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "m2_child/q3": {
+   "ms": 207.2,
+   "rows": 11620,
+   "docs": 61038,
+   "keys": 63378,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "m2_child/q4": {
+   "ms": 397.5,
+   "rows": 5,
+   "docs": 368164,
+   "keys": 368164,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "proposed/q1": {
+   "ms": 9821.5,
+   "rows": 4,
+   "docs": 6001215,
+   "keys": 0,
+   "plan": [
+    "COLLSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "proposed/q2": {
+   "ms": 14.0,
+   "rows": 460,
+   "docs": 747,
+   "keys": 3908,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "classic"
+  },
+  "proposed/q3": {
+   "ms": 217.6,
+   "rows": 11620,
+   "docs": 61038,
+   "keys": 63378,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "SBE"
+  },
+  "proposed/q4": {
+   "ms": 41.3,
+   "rows": 5,
+   "docs": 14486,
+   "keys": 14486,
+   "plan": [
+    "IXSCAN"
+   ],
+   "engine": "SBE"
+  }
+ }
+}

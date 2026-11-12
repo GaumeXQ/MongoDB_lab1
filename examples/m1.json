@@ -1,0 +1,150 @@
+{
+  "orders": [
+    {
+      "_id": 1,
+      "orderdate": {
+        "$date": "1996-01-02T00:00:00Z"
+      },
+      "shippriority": 0,
+      "custkey": 7381,
+      "mktsegment": "BUILDING",
+      "cust_nationkey": 20,
+      "cust_nation": "SAUDI ARABIA",
+      "cust_region": "MIDDLE EAST",
+      "lines": [
+        {
+          "linenumber": 1,
+          "returnflag": "N",
+          "linestatus": "O",
+          "quantity": 17.0,
+          "extendedprice": 16473.51,
+          "discount": 0.04,
+          "tax": 0.02,
+          "shipdate": {
+            "$date": "1996-03-13T00:00:00Z"
+          },
+          "supp_nationkey": 12
+        },
+        {
+          "linenumber": 2,
+          "returnflag": "N",
+          "linestatus": "O",
+          "quantity": 36.0,
+          "extendedprice": 49516.56,
+          "discount": 0.09,
+          "tax": 0.06,
+          "shipdate": {
+            "$date": "1996-04-12T00:00:00Z"
+          },
+          "supp_nationkey": 5
+        },
+        {
+          "linenumber": 3,
+          "returnflag": "N",
+          "linestatus": "O",
+          "quantity": 8.0,
+          "extendedprice": 13221.92,
+          "discount": 0.1,
+          "tax": 0.02,
+          "shipdate": {
+            "$date": "1996-01-29T00:00:00Z"
+          },
+          "supp_nationkey": 7
+        },
+        {
+          "linenumber": 4,
+          "returnflag": "N",
+          "linestatus": "O",
+          "quantity": 28.0,
+          "extendedprice": 37167.76,
+          "discount": 0.09,
+          "tax": 0.06,
+          "shipdate": {
+            "$date": "1996-04-21T00:00:00Z"
+          },
+          "supp_nationkey": 18
+        },
+        {
+          "linenumber": 5,
+          "returnflag": "N",
+          "linestatus": "O",
+          "quantity": 24.0,
+          "extendedprice": 41059.2,
+          "discount": 0.1,
+          "tax": 0.04,
+          "shipdate": {
+            "$date": "1996-03-30T00:00:00Z"
+          },
+          "supp_nationkey": 9
+        },
+        {
+          "linenumber": 6,
+          "returnflag": "N",
+          "linestatus": "O",
+          "quantity": 32.0,
+          "extendedprice": 32963.84,
+          "discount": 0.07,
+          "tax": 0.02,
+          "shipdate": {
+            "$date": "1996-01-30T00:00:00Z"
+          },
+          "supp_nationkey": 23
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "_id": 31038,
+      "mfgr": "Manufacturer#3",
+      "type": "ECONOMY BURNISHED NICKEL",
+      "size": 31,
+      "suppliers": [
+        {
+          "suppkey": 1039,
+          "supplycost": 741.86,
+          "name": "Supplier#000001039",
+          "address": "GXFzvmVvzg56hhqmVfwH7XvN80xwx5",
+          "phone": "16-217-795-1403",
+          "acctbal": 2973.47,
+          "comment": "arefully unusual deposits x-ray ideas. furiously pending braids",
+          "nation": "FRANCE",
+          "region": "EUROPE"
+        },
+        {
+          "suppkey": 1554,
+          "supplycost": 984.34,
+          "name": "Supplier#000001554",
+          "address": "EbPwlxxpCsxoKvJduekha8s mOxumWg",
+          "phone": "22-764-566-1120",
+          "acctbal": 5246.82,
+          "comment": "s. furiously even requests cajole accounts. final pinto beans use slyly. carefully regular packa",
+          "nation": "JAPAN",
+          "region": "ASIA"
+        },
+        {
+          "suppkey": 69,
+          "supplycost": 377.11,
+          "name": "Supplier#000000069",
+          "address": "T2Dl9,f97e333eRuMi2z ",
+          "phone": "14-491-707-8310",
+          "acctbal": 8466.5,
+          "comment": "! carefully ironic instructions nag quickly pending requests. fluffily even deposits sleep a",
+          "nation": "EGYPT",
+          "region": "MIDDLE EAST"
+        },
+        {
+          "suppkey": 584,
+          "supplycost": 697.57,
+          "name": "Supplier#000000584",
+          "address": "XvDYsHYpmY5AkX60fj0bZo4WW",
+          "phone": "28-223-704-2186",
+          "acctbal": 6912.86,
+          "comment": "e requests haggle carefully even ideas. express, bold requests integrate quickly furiously ",
+          "nation": "CHINA",
+          "region": "ASIA"
+        }
+      ]
+    }
+  ]
+}
