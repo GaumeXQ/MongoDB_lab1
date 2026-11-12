@@ -1,0 +1,42 @@
+{
+  "_id": "ORDER_KEY",
+  "orderStatus": "",
+  "totalPrice": "",
+  "orderDate": "",
+  "orderPriority": "",
+  "clerk": "",
+  "shipPriority": "",
+  "comment": "",
+
+  "customer": {
+    "customerKey": "",
+    "marketSegment": "",
+    "nationKey": ""
+  },
+
+  "lineItems": [
+    {
+      "lineNumber": "",
+      "partKey": "",
+      "supplierKey": "",
+      "quantity": "",
+      "extendedPrice": "",
+      "discount": "",
+      "tax": "",
+      "returnFlag": "",
+      "lineStatus": "",
+      "shipDate": "",
+      "commitDate": "",
+      "receiptDate": "",
+      "shipInstruction": "",
+      "shipMode": "",
+      "comment": "",
+
+      "supplier": {
+        "nationKey": "",
+        "nationName": "",
+        "regionName": ""
+      }
+    }
+  ]
+}
